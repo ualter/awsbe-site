@@ -49,6 +49,7 @@ A tool to help handle **AWS Session** connections on terminals, using your confi
 - https://github.com/ualter/awsbe-site/releases
   - [awsbe-v0.3.1-linuxAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.1/awsbe-v0.3.1-linuxAmd64.tar.gz)
   - [awsbe-v0.3.1-windowsAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.1/awsbe-v0.3.1-windowsAmd64.tar.gz)
+  - [awsbe-v0.3.1-darwinAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.1/awsbe-v0.3.1-darwinAmd64.tar.gz)
 
 #### :computer: **LINUX**
 ```bash
