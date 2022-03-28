@@ -47,11 +47,11 @@ A tool to help handle **AWS Session** connections on terminals, using your confi
 
 :cd: Download:
 - https://github.com/ualter/awsbe-site/releases
-  - [awsbe-v0.3.1-linuxAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.1/awsbe-v0.3.1-linuxAmd64.tar.gz)
-  - [awsbe-v0.3.1-windowsAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.1/awsbe-v0.3.1-windowsAmd64.tar.gz)
-  - [awsbe-v0.3.1-darwinAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.1/awsbe-v0.3.1-darwinAmd64.tar.gz)
+  - [awsbe-v0.3.2-linuxAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.2/awsbe-v0.3.2-linuxAmd64.tar.gz)
+  - [awsbe-v0.3.2-windowsAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.2/awsbe-v0.3.2-windowsAmd64.tar.gz)
+  - [awsbe-v0.3.2-darwinAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.2/awsbe-v0.3.2-darwinAmd64.tar.gz)
 
-#### :computer: **LINUX**
+#### :computer: **LINUX** and **MAC**
 ```bash
 tar -xvf awsbe-${VERSION}-linuxAmd64.tar.gz 
 # Use the provided script
@@ -116,6 +116,7 @@ awsbe -h
   - :heavy_check_mark: [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab) :fast_forward: Command Prompt
   - :heavy_check_mark: [WSL2](https://docs.microsoft.com/en-us/windows/wsl/about) Ubuntu *(works with no unicode characters support)*
   - :heavy_check_mark: Windows Command Prompt *(works with no unicode characters support)*
+  - :heavy_check_mark: EC2 Amazon Linux
 
 ### [**ChangeLog**](./CHANGELOG.md)
 <p align="right">(<a href="#top">back to top</a>)</p>
