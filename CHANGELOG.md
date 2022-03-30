@@ -3,7 +3,7 @@
 ### **ChangeLog**
 - **v0.3.3** *(2022-03-30)*
   - **Bug fixes**: 
-    - Fixing/Adapting to work the completion in shell, feature avaible by cobra golang library
+    - Fixing/Adapting to work the completion in shell, feature available by [Cobra Golang library](https://github.com/spf13/cobra/blob/master/shell_completions.md)
 ---
 - **v0.3.2** *(2022-03-28)*
   - **Bug fixes**: 
