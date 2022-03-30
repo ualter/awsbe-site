@@ -25,7 +25,7 @@ A tool to help handle **AWS Session** connections on terminals, using your confi
       </ul>
     </li>
     <li><a href="#running-usage">Usage</a></li>
-    <li><a href="#pencil2-completion">Completion</a>
+    <li><a href="#pencil2-autocompletion-script"> Autocompletion Script</a>
     <li><a href="#mailbox-contact">Contact</a></li>
     <li><a href="#construction-working-in-progress">WIP</a>
       <ul>
@@ -104,7 +104,7 @@ awsbe -h
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## :pencil2: **Completion**
+## :pencil2: **Auto*completion* Script**
 Generate the autocompletion script for awsbe for the specified shell.
 ```bash
 ### BASH
