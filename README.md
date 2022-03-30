@@ -25,6 +25,7 @@ A tool to help handle **AWS Session** connections on terminals, using your confi
       </ul>
     </li>
     <li><a href="#running-usage">Usage</a></li>
+    <li><a href="#pencil2-completion">Completion</a>
     <li><a href="#mailbox-contact">Contact</a></li>
     <li><a href="#construction-working-in-progress">WIP</a>
       <ul>
@@ -103,12 +104,31 @@ awsbe -h
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## :pencil2: **Completion**
+Generate the autocompletion script for awsbe for the specified shell.
+```bash
+### BASH
+source <(awsbe completion bash)
+## Linux:
+awsbe completion bash > /etc/bash_completion.d/awsbe
+## macOS:
+awsbe completion bash > /usr/local/etc/bash_completion.d/awsbe
+
+
+### ZSH
+echo "autoload -U compinit; compinit" >> ~/.zshrc
+awsbe completion zsh > "${fpath[1]}/_awsbe"
+# You will need to start a new shell for this setup to take effect.
+
+```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## :mailbox: **Contact**
 **[Ualter Otoni](https://github.com/ualter)**
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## :construction: Working in progress...
+## :construction: **Working in progress...**
 
 :construction_worker: Having some fun in my spare time...  this is the real goal here :stuck_out_tongue_winking_eye:
 - Tested so far...
