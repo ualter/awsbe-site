@@ -62,6 +62,7 @@ sh install.sh # Notice! The script must have permission to move files to folder 
 
 # DIY...
 tar -xvf awsbe-${VERSION}-linuxAmd64.tar.gz
+chmod +x awsbe
 mv awsbe /usr/local/bin/
 mv awsbebin-${VERSION} /usr/local/bin/
 echo "alias awsbe='source awsbe'" >> ~/.bashrc
