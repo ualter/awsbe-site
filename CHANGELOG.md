@@ -1,6 +1,17 @@
 <div id="top"></div>
 
 ### **ChangeLog**
+- **v0.3.5** *(2022-03-11)*
+  - **Features**: 
+    - AWS Profile Config having another AWS Profile Config (with SSO) as its source profile 
+  - **Improvement**: 
+    - Minor improvements in detail info panels
+---
+- **v0.3.4** *(2022-03-10)*
+  - **Improvement**: 
+    - Message error when AWS Profile not found, when using Profile Commands
+    - Some little color on the Help description
+---
 - **v0.3.3** *(2022-03-30)*
   - **Bug fixes**: 
     - Fixing/Adapting to work the completion in shell, feature available by [Cobra Golang library](https://github.com/spf13/cobra/blob/master/shell_completions.md)
