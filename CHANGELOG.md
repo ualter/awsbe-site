@@ -1,6 +1,15 @@
 <div id="top"></div>
 
 ### **ChangeLog**
+- **v0.3.6** *(2022-05-01)*
+  - **Features**: 
+    - Filtering for the table of profiles
+    - Execute AWS SSO Login via User Interface, to create the Token, without start the session in the terminal and exit the User Interface 
+    - Execute AWS SSO Login via Command Line, to create the Token, without start the session in the terminal (awsbe [PROFILE] -o)
+    - Option from Command Line to clean AWS Session from terminal, removing all the AWS environment variables
+  - **Improvement**: 
+    - User Interface in full screen mode by default, configurable via config file ~/.awsbe/awsbe.yaml (fullscreen: false|true)
+---
 - **v0.3.5** *(2022-03-11)*
   - **Features**: 
     - AWS Profile Config having another AWS Profile Config (with SSO) as its source profile 
