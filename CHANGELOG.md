@@ -1,10 +1,16 @@
 <div id="top"></div>
 
 ### **ChangeLog**
+- **v0.3.8** *(2022-05-08)*
+  - **Features**: 
+    - Command flag to just list the profiles from command line, without need to enter user interface
+    - Sort profile tables by its columns (asc / desc)
+---
 - **v0.3.7** *(2022-05-07)*
   - **Bug Fixes**: 
     - Filtering causing SSO Token being shown in wrong lines, after filter cancelation
 ---
+
 - **v0.3.6** *(2022-05-01)*
   - **Features**: 
     - Filtering for the table of profiles

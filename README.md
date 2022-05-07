@@ -48,9 +48,9 @@ A tool to help handle **AWS Session** connections on terminals, using your confi
 
 :cd: Download:
 - https://github.com/ualter/awsbe-site/releases
-  - [awsbe-v0.3.7-linuxAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.7/awsbe-v0.3.7-linuxAmd64.tar.gz)
-  - [awsbe-v0.3.7-windowsAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.7/awsbe-v0.3.7-windowsAmd64.tar.gz)
-  - [awsbe-v0.3.7-darwinAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.7/awsbe-v0.3.7-darwinAmd64.tar.gz)
+  - [awsbe-v0.3.8-linuxAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.8/awsbe-v0.3.8-linuxAmd64.tar.gz)
+  - [awsbe-v0.3.8-windowsAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.8/awsbe-v0.3.8-windowsAmd64.tar.gz)
+  - [awsbe-v0.3.8-darwinAmd64.tar.gz](https://github.com/ualter/awsbe-site/releases/download/v0.3.8/awsbe-v0.3.8-darwinAmd64.tar.gz)
 
 #### :computer: **LINUX** and **MAC**
 ```bash
@@ -99,6 +99,9 @@ awsbe prod
 
 # To show the current AWS Session opened in terminal 
 awsbe -s
+
+# List all my profiles
+awsbe -l
 
 # To see all available options:
 awsbe -h
