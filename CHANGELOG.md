@@ -1,6 +1,10 @@
 <div id="top"></div>
 
 ### **ChangeLog**
+- **v0.3.9** *(2022-06-01)*
+  - **Bug Fixes**: 
+    - Token number typing not working, when using user interface after Sort Column implementation
+--- 
 - **v0.3.8** *(2022-05-08)*
   - **Features**: 
     - Command flag to just list the profiles from command line, without need to enter user interface
